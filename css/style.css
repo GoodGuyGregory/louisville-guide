@@ -7,7 +7,7 @@
 
 body {
 	line-height: 1.6;
-    color: #3a3a3a;
+    color: #423E37;
 
 }
 
@@ -17,6 +17,32 @@ a {
 	text-decoration: none;
 }
 
+.name,
+.main-nav li {
+	text-align: center;
+	background: #EDEBD7;
+	margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.name a{
+    color: #E3B23C;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #E3B23C;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.name a,
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+}
 
 /* ========================== 
     Base Layout Styles:
@@ -30,19 +56,26 @@ a {
 
 /* ---- Layout Containers */
 
+.wrap {
+    background-color: #EDEBD7;
+}
+
 .container {
     padding-left:  1em;
     padding-right: 1em;
 }
 
 .main-header {
-    background: #3acec2;
-    padding: 1em 0;
+    text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #423E37;
+	margin-bottom: 30px;
 }
 
 .main-footer {
     padding: 2em 0;
-    background: #d9e4ea;
+    background: #A39594;
     text-align: center;
 }
 
@@ -62,6 +95,16 @@ a {
         width: 70%;
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    .name,
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .name {
+        width: 240px;
+        
     }
 }
 
